@@ -1,0 +1,122 @@
+html,body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Warna biru muda */
+    height: 100%;
+    display: flex;
+  flex-direction: column;
+  }
+  
+  header {
+    background-color: #4682b4; /* Warna biru */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #5f9ea0; /* Biru kehijauan */
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f0f8ff;
+    text-align: center;
+    flex-grow: 1; /* Main akan mengisi ruang kosong */
+    padding-bottom: 20px; /* Tambahkan jarak dari footer */
+  }
+  .card {
+    background-color: #fff;
+    border: 1px solid #4682b4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsif untuk ul */
+  .card ul {
+    padding-left: 20px;
+  }
+  
+  .card ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Teks judul */
+  h2, h3 {
+    text-align: center;
+    color: #4682b4;
+  }
+  .image-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .image-container img {
+    max-width: 80%; /* Agar gambar responsif */
+    height: auto; /* Menjaga rasio gambar */
+    border: 2px solid #4682b4; /* Tambahkan border */
+    border-radius: 10px; /* Membuat sudut gambar melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tambahkan efek bayangan */
+  }
+
+  .welcome-message {
+    background-color: #fff8dc; /* Warna krem seperti kertas */
+    border: 2px solid #d4af37; /* Warna emas untuk border */
+    border-radius: 10px; /* Sudut melengkung */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 80%; /* Membatasi lebar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    font-family: 'Georgia', serif; /* Font elegan */
+    line-height: 1.8; /* Jarak antar baris */
+  }
+  
+  .welcome-message h3 {
+    text-align: center;
+    color: #4682b4; /* Warna biru header */
+  }
+  
+  .welcome-message p {
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  
+  footer {
+    background-color: #4682b4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
